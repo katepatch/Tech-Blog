@@ -1,0 +1,22 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "Module 14 Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katepatch/Tech-Blog.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Kate Patch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katepatch/Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/katepatch/Tech-Blog#readme"
+}
