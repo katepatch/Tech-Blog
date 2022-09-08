@@ -4,9 +4,11 @@
 
 ## Table of Contents
 
+[User Story](#user-story)</br>
+[Acceptance Criteria](#acceptance-criteria)</br>
 ## User Story
 
-AS A developer who writes about tech</br>
+AS A developer who writes about tech</.br>
 I WANT a CMS-style blog site</br>
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
