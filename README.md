@@ -6,6 +6,7 @@
 
 [User Story](#user-story)</br>
 [Acceptance Criteria](#acceptance-criteria)</br>
+
 ## User Story
 
 AS A developer who writes about tech</br>
