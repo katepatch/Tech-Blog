@@ -1,5 +1,5 @@
 const { Model, DataTypes } = reequire('sequelize');
-const seequelize = require('../config/connection');
+const sequelize = require('../config/connection');
 const bcrypt = require('bcrypt');
 
 class User extends Model {
