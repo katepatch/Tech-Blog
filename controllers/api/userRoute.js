@@ -71,6 +71,22 @@ router.put('/:id', withAuth, (req, res) => {
 });
 
 //CREATE user
+router.post('/', (req, res) => {
+    User.create({
+        user_name: req.body.user_name,
+        email: req.body.email,
+        password: req.body.password
+    })
+    .then(userData => {
+        req.session.save(() => {
+            req.session.user_id = userData.id;
+            req.session.user_name = userData.user_name;
+            req.session.loggedIn = true;
+
+            res.json(userData);
+        });
+    });
+});
 
 //LOGIN user
 
