@@ -128,3 +128,23 @@ router.post('/logout', withAuth, (req, res) => {
 });
 
 //DELETE user
+router.delete('/:id', withAuth, (req, res) => {
+    User.destroy({
+        where: {
+            id: req.params.id
+        }
+    })
+    .then(userData => {
+        if (!userData) {
+            res.status(404).json({ message: 'No user found' })
+            return;
+        }
+        res.json(userData);
+    })
+    .catch(err => {
+        res.status(500).json(err);
+        console.log(err);
+    });
+});
+
+module.exports = router;
