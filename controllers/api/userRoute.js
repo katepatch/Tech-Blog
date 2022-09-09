@@ -37,7 +37,7 @@ router.get('/:id', (req, res) => {
         ]
     })
     .then(userData => {
-        if(!userData) {
+        if (!userData) {
             res.status(404).json({ message: 'Can not find user'});
             return;
         }
@@ -50,6 +50,25 @@ router.get('/:id', (req, res) => {
 });
 
 //UPDATE user
+router.put('/:id', withAuth, (req, res) => {
+    User.update(req.body, {
+        individualHooks: true,
+        where: {
+            id: req.params.id
+        }
+    })
+    .then(userData => {
+        if (!userData[0]) {
+            res.status(404).json({ message: 'Can not find user with this id'});
+            return;
+        }
+        res.json(userData);
+    })
+    .catch(err => {
+        console.log(err);
+        res.status(500).json(err);
+    });
+});
 
 //CREATE user
 
