@@ -1,6 +1,10 @@
 # Tech Blog
 
+## Description
+
  Module 14 Challenge
+
+This is a CMS-style tech blog where developers can come to create posts about all things tech.  Users can also comment on other posts that they read to discuss further on the subject.  You are encouraged to create a login so you can be a part of the converstation!
 
 ## Table of Contents
 
