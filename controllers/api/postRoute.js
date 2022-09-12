@@ -3,6 +3,7 @@ const { Post, User, Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
 const sequelize = require('../../config/connection');
 
+//GET all posts
 router.get('/', (req, res) => {
     Post.findAll({
         attributes: ['id', 'post_text', 'title', 'created_at'],
@@ -28,4 +29,12 @@ router.get('/', (req, res) => {
         res.status(500).json(err);
     });
 });
+
+//GET single post
+
+//UPDATE post
+
+//CREATE post
+
+//DELETE post
 
