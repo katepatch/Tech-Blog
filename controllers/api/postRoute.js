@@ -66,6 +66,27 @@ router.get('/:id', (req, res) => {
 });
 
 //UPDATE post
+router.put('/:id', withAuth, (req, res) => {
+    Post.update({
+        title: req.body.title,
+        post_text: req.body.post_text
+    },
+    {
+        where: {
+            id: req.params.id
+        }
+    })
+    .then(postData => {
+        if (!postData) {
+            res.status(404).json({ message: 'No post found' });
+            return;
+        }
+    })
+    .catch(err => {
+        console.log(err);
+        res.status(500).json(err);
+    });
+});
 
 //CREATE post
 
