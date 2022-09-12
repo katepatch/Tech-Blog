@@ -3,7 +3,6 @@ const { Post, User, Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
 const sequelize = require('../../config/connection');
 
-//GET all posts
 router.get('/', (req, res) => {
     Post.findAll({
         attributes: ['id', 'post_text', 'title', 'created_at'],
@@ -30,7 +29,6 @@ router.get('/', (req, res) => {
     });
 });
 
-//GET single post
 router.get('/:id', (req, res) => {
     Post.findOne({
         where: {
@@ -65,7 +63,6 @@ router.get('/:id', (req, res) => {
     });
 });
 
-//UPDATE post
 router.put('/:id', withAuth, (req, res) => {
     Post.update({
         title: req.body.title,
@@ -88,7 +85,6 @@ router.put('/:id', withAuth, (req, res) => {
     });
 });
 
-//CREATE post
 router.post('/', withAuth, (req, res) => {
     Post.create({
         title: req.body.title,
@@ -102,5 +98,23 @@ router.post('/', withAuth, (req, res) => {
     });
 });
 
-//DELETE post
+router.delete('/:id', withAuth, (req, res) => {
+    Post.destroy({
+        where: {
+            id: req.params.id
+        }
+    })
+    .then(postData => {
+        if (!postData) {
+            res.status(404).json({ message: 'No post found' });
+            return;
+        }
+        res.json(postData);
+    })
+    .catch(err => {
+        console.log(err);
+        res.status(500).json(err);
+    });
+});
 
+module.exports = router;
