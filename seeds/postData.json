@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Gaming Computers",
+        "post_text": "They are pretty expensive but worth the investment. Plus I am a billionare that can afford a lot of them.",
+        "user_id": 1
+    },
+    {
+        "id": 2,
+        "title": "I love my coding bootcamp!",
+        "post_text": "It has been so great going to my bootcamp for full stack developers",
+        "user_id": 2
+    },
+    {
+        "id": 3,
+        "title": "I am making a blog for those who",
+        "post_text": "If you like tech visit my blog that is all about tech things",
+        "user_id": 3
+    }
+]
