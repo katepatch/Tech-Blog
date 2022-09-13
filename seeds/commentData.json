@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "comment_text": "Gaming computers ARE expensive.  That is why I don't have one.",
+        "post_id": 1,
+        "user_id": 3
+    },
+    {
+        "id": 2,
+        "comment_text": "I am thinking of joining a bootcamp and I think you may have convinced me!",
+        "post_id": 2,
+        "user_id": 1
+    },
+    {
+        "id": 3,
+        "comment_text": "I will be happy to visit your blog.  I hope it is a welcoming place!",
+        "post_id": 3,
+        "user_id": 2
+    }
+]
