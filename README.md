@@ -9,7 +9,12 @@ This is a CMS-style tech blog where developers can come to create posts about al
 ## Table of Contents
 
 [User Story](#user-story)</br>
-[Acceptance Criteria](#acceptance-criteria)</br>
+[Project Criteria](#project-criteria)</br>
+[Installation](#installation)</br>
+[Technologies Used](#technologies-used)</br>
+[Preview](#preview)</br>
+[Questions](#questions)
+
 
 ## User Story
 
@@ -17,7 +22,7 @@ AS A developer who writes about tech</br>
 I WANT a CMS-style blog site</br>
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
-## Acceptance Criteria
+## Project Criteria
 
 GIVEN a CMS-style blog site</br>
 WHEN I visit the site for the first time</br>
@@ -52,3 +57,27 @@ WHEN I click on the logout option in the navigation</br>
 THEN I am signed out of the site</br>
 WHEN I am idle on the site for more than a set time</br>
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
+
+## Installation
+
+To install this application please clone repository</br>
+After cloning please run `npm i` to install all packages
+
+## Technologies Used
+
+[bcrypt](https://www.npmjs.com/package/bcrypt)</br>
+[connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize)</br>
+[dotenv](https://www.npmjs.com/package/dotenv)</br>
+[express](https://www.npmjs.com/package/express)</br>
+[express-handlebars](https://www.npmjs.com/package/express-handlebars)</br>
+[express-session](https://www.npmjs.com/package/express-session)</br>
+[mysql2](https://www.npmjs.com/package/mysql2)</br>
+[sequelize](https://www.npmjs.com/package/sequelize)
+
+## Preview
+
+## Questions
+
+If you have questions regarding this project or others you can reach me by:</br>
+Email: kate.epatch@gmail.com</br>
+Github: [katepatch](https://github.com/katepatch)
