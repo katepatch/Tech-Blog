@@ -61,7 +61,10 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ## Installation
 
 To install this application please clone repository</br>
-After cloning please run `npm i` to install all packages
+After cloning please run `npm i` to install all packages</br>
+Open a terminal in the db folder and run `mysql -u root -p` then enter your mysql password.  Then run `source schema.sql` and exit the terminal</br>
+Then in your main terminal run `npm run seed`</br>
+You can then run `node server` to start the application and open the link found in the command line
 
 ## Technologies Used
 
