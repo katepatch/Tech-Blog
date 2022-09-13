@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "user_name": "Elon",
+        "email": "bossman@tesla.org",
+        "password": "password54321"
+    },
+    {
+        "id": 2,
+        "user_name": "Sammy",
+        "email": "tech@techcompany.com",
+        "password": "password123"
+    },
+    {
+        "id": 3,
+        "user_name": "Sasha",
+        "email": "gurlsintech@gmail.com",
+        "password": "p4ssw0rd"
+    }
+]
