@@ -11,3 +11,9 @@ header {
 .homepage {
     color: white;
 }
+
+.card-head {
+    background-color: #f77f00;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
