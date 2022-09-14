@@ -5,4 +5,9 @@ header {
     align-items: center;
     background-color: #003049;
     color: white;
+    text-align: center;
+}
+
+.homepage {
+    color: white;
 }
