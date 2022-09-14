@@ -15,7 +15,6 @@ This is a CMS-style tech blog where developers can come to create posts about al
 [Preview](#preview)</br>
 [Questions](#questions)
 
-
 ## User Story
 
 AS A developer who writes about tech</br>

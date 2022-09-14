@@ -1,0 +1,8 @@
+header {
+    border-bottom: 3px solid #D62828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003049;
+    color: white;
+}
