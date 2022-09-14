@@ -12,7 +12,7 @@
     "start": "node server.js",
     "seed": "node ./seeds/seed.js",
     "dev": "nodemon server.js",
-    "heroku-prebuild": "npm install --dev"
+    "heroku-postbuild": "npm start"
   },
   "repository": {
     "type": "git",
