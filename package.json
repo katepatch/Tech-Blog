@@ -1,10 +1,6 @@
 {
   "name": "tech-blog",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.17.0",
-    "npm": "8.15.0"
-  },
   "description": "Module 14 Challenge",
   "main": "server.js",
   "scripts": {
@@ -34,6 +30,6 @@
     "handlebars": "^4.7.7",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.19",
-    "sequelize": "^6.21.5"
+    "sequelize": "^6.23.1"
   }
 }
