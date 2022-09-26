@@ -78,6 +78,7 @@ You can then run `node server` to start the application and open the link found 
 
 ## Preview
 
+Deployed with [Heroku](https://techy-talk.herokuapp.com/)
 ## Questions
 
 If you have questions regarding this project or others you can reach me by:</br>
