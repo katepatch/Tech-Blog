@@ -32,7 +32,7 @@ app.set('view engine', 'handlebars');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
-hbs.registerPartials(__dirname, '/views/partials');
+// hbs.registerPartials(__dirname, '/views/partials');
 
 app.use(routes);
 
