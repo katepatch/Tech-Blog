@@ -80,6 +80,9 @@ You can then run `npm start` to start the application and open the link found in
 
 Deployed with [Heroku](https://techy-talk.herokuapp.com/)
 
+![screenshot](./assets/techbloghome.png)
+![screenshot](./assets/techblogpost.png)
+
 ## Questions
 
 If you have questions regarding this project or others you can reach me by:</br>
